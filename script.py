@@ -27,3 +27,5 @@ def load_data():
     return df
 
 df = load_data()
+
+df.to_csv('data.csv')
