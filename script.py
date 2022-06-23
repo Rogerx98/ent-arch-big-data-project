@@ -28,4 +28,9 @@ def load_data():
 
 df = load_data()
 
-df.to_csv('data.csv')
+#titles = df['title'].drop_duplicates()
+#titles_choice = st.sidebar.selectbox('Select desired title:', titles)
+#contracts = df["contract_type"].loc[df["title"] = titles_choice]
+#contract_choice = st.sidebar.selectbox('', contracts) 
+
+#df.to_csv('data.csv')
