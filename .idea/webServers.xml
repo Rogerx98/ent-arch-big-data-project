@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="b269e99c-2f6b-44eb-b8cf-989e5687702c" name="seneca2.lehre.hwr-berlin.de">
+        <fileTransfer accessType="SFTP" host="seneca2.lehre.hwr-berlin.de" port="22" sshConfigId="5ad63821-8df4-4cf1-bb2b-5b054cd8f914" sshConfig="ngoc_nguyen@seneca2.lehre.hwr-berlin.de:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
