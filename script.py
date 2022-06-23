@@ -150,3 +150,12 @@ while page > 0:
 
 
 
+<<<<<<< HEAD
+=======
+#titles = df['title'].drop_duplicates()
+#titles_choice = st.sidebar.selectbox('Select desired title:', titles)
+#contracts = df["contract_type"].loc[df["title"] = titles_choice]
+#contract_choice = st.sidebar.selectbox('', contracts) 
+
+#df.to_csv('data.csv')
+>>>>>>> 6dfd16d06bcc52dff0e1eb94187d1995d456c408

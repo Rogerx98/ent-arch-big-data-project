@@ -52,9 +52,18 @@ df = load_data()
 #
 # st.pyplot(fig)
 
+titles = df['title'].drop_duplicates()
+contracts = df['contract_type'].drop_duplicates()
+
+titles_choice = st.sidebar.selectbox('Select desired title:', titles)
+contract_choice = st.sidebar.selectbox('Select contract type', contracts) 
+
+
+st.write(df[df["title"] == titles_choice])
 
 
 
+#career, level, skills, regions
 
 
 
