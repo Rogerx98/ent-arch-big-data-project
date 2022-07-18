@@ -14,9 +14,14 @@ centralized, comprehensive and insightful information about the potential career
 Due to the limited time span of the Big Data course, we developed a Prototype that covers
 Business Intelligence careers of the US job market1 with limited sets of functionalities as
 followed:
+
 ● Analyzation of possible careers for the Business Intelligence study program
+
 ● Visualize current job postings based on region demand
+
 ● Analyze if there are any noticeable differences in organizations and the requirement
 characteristics per career
+
 ● Summarize the popular skill sets needed per career
+
 ● Show companies which offer the highest salary
